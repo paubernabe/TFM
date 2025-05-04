@@ -1,0 +1,16 @@
+Model,Data Type,Class,Precision,Recall,F1-Score,Macro F1,Weighted F1
+Logistic Regression,Model Fine-Tuning,1,0.733,0.755,0.744,0.872,0.999
+Random Forest,Model Fine-Tuning,1,0.942,0.827,0.88,0.94,1.0
+LGBM,Model Fine-Tuning,1,0.892,0.755,0.818,0.909,0.999
+XGBoost,Model Fine-Tuning,1,0.89,0.827,0.857,0.928,1.0
+Neural Network,Model Fine-Tuning,1,0.697,0.847,0.765,0.882,0.999
+Logistic Regression,Undersampling,1,0.204,0.888,0.332,0.664,0.996
+Random Forest,Undersampling,1,0.75,0.827,0.786,0.893,0.999
+LGBM,Undersampling,1,0.194,0.898,0.319,0.658,0.996
+XGBOOST,Undersampling,1,0.755,0.786,0.77,0.885,0.999
+Neural Network,Undersampling,1,0.407,0.888,0.558,0.778,0.998
+Logistic Regression,SMOTE,1,0.195,0.888,0.32,0.658,0.996
+Random Forest,SMOTE,1,0.814,0.806,0.81,0.905,0.999
+LGBM,SMOTE,1,0.875,0.857,0.866,0.933,1.0
+XGBoost,SMOTE,1,0.825,0.867,0.846,0.923,0.999
+Neural Network,SMOTE,1,0.599,0.867,0.708,0.854,0.999

@@ -33,7 +33,7 @@ def classification_metrics(y_true, y_pred, model_name, experiment_name, results_
     })
     df_per_class = df_per_class.round(3)
 
-    results_df.append(df_per_class)
+    results_df.append(df_per_class[df_per_class['Class'] == 1])
 
 
     return df_per_class
